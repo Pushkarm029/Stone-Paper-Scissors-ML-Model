@@ -5,7 +5,7 @@ import pickle
 from tensorflow import keras
 import tensorflow as tf
 
-desired_fps = 10
+desired_fps = 2
 frame_delay = 1.0 / desired_fps
 
 with open('model_pickle','rb') as f:
